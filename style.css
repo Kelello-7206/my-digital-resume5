@@ -1,0 +1,61 @@
+.doc1 {
+    position: fixed;
+    padding-top: 1.5%;
+    background-color: black;
+    height: 100%;
+    width: 69%;
+}
+
+.doc2 {
+    position: absolute;
+    top: 3%;
+    left: 2.6%;
+    width: 21.3%;
+    height: 79%;
+    background-color: gray;
+    /*The position, top , left are there to position the article to the top-left corner*/
+}
+
+.doc3 {
+    position: absolute;
+    left: 32%;
+    width: 60%;
+    height: auto;
+    text-align: center;
+    background-color: gray;
+}
+
+.doc2>article>h2 {
+    text-align: center;
+
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bolder;
+
+}
+
+img {
+    width: 55%;
+    height: 65%;
+    padding-top: 10%;
+    padding-left: 18%;
+    /*Padding is to center the image*/
+}
+
+footer {
+    text-align: center;
+}
+
+.half-pie {
+    position: absolute;
+    left: 2.5%;
+    bottom: 7%;
+    width: 227px;
+    height: 90px;
+    border-radius: 0 0 12rem 12rem;
+    background-color: gray;
+    /*The code used to make a half circle*/
+}
