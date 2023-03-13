@@ -59,6 +59,7 @@ p {
   padding-left: 25vw;
   color: white;
   background-color: gray;
+  /*mapA is section*/
 }
 
 .mapB {
@@ -74,14 +75,16 @@ p {
 }
 
 img {
+  border-radius: 45%;
   margin-top: 5vh;
   margin-left: 4vw;
-  width: 12vw;
-  height: 20vh;
+  width: 11.5vw;
+  height: 21vh;
 }
 
 .sk1 {
   margin-left: 6vw;
+  /*Class ofr heading 2 "Skills"*/
 }
 
 li {
