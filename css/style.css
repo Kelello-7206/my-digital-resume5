@@ -31,7 +31,7 @@ h3 {
   color: black;
   font-family: "Franklin Gothic Medium", sans-serif;
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 1.6vw;
   /*VW is used to make the font more responsive*/
 }
 
@@ -42,7 +42,7 @@ h3:hover {
 
 p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
-  font-size: 1vw;
+  font-size: 1.1vw;
   /*VW is used to make the font more responsive*/
 }
 
@@ -57,6 +57,7 @@ p {
   height: auto;
   padding-top: 3%;
   padding-left: 25vw;
+  padding-right: 15vw;
   color: white;
   background-color: gray;
   /*mapA is section*/
