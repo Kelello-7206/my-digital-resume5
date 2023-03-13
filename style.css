@@ -1,61 +1,135 @@
-.doc1 {
-    position: fixed;
-    padding-top: 1.5%;
-    background-color: black;
-    height: 100%;
-    width: 69%;
+/*NOTE, I used prettier code extension to format the code*/
+
+header {
+  width: auto;
+  height: 35vh;
+  text-align: center;
+  background-color: black;
 }
 
-.doc2 {
-    position: absolute;
-    top: 3%;
-    left: 2.6%;
-    width: 21.3%;
-    height: 79%;
-    background-color: gray;
-    /*The position, top , left are there to position the article to the top-left corner*/
+.link1 {
+  color: rgb(237, 199, 199);
 }
 
-.doc3 {
-    position: absolute;
-    left: 32%;
-    width: 60%;
-    height: auto;
-    text-align: center;
-    background-color: gray;
+.link1:hover {
+  color: orange;
+  /*changes color when the cursor is on the link*/
 }
 
-.doc2>article>h2 {
-    text-align: center;
-
+h1 {
+  font-weight: bolder;
+  font-size: 5vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 3%;
+  margin-bottom: 6%;
+  color: white;
+  /*VW is used to make the font more responsive*/
 }
 
-h1,
 h2,
 h3 {
-    font-weight: bolder;
+  color: black;
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+  /*VW is used to make the font more responsive*/
+}
 
+h3:hover {
+  color: palevioletred;
+  /*changes color when the cursor is on the link*/
+}
+
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+  font-size: 1vw;
+  /*VW is used to make the font more responsive*/
+}
+
+.map1 {
+  display: flex;
+  margin: 0;
+}
+
+.mapA {
+  position: right;
+  width: auto;
+  height: auto;
+  padding-top: 3%;
+  padding-left: 25vw;
+  color: white;
+  background-color: gray;
+}
+
+.mapB {
+  position: absolute;
+  z-index: 1;
+  top: 23%;
+  left: 3%;
+  width: 19vw;
+  height: 115vh;
+  color: white;
+  background-color: rgb(75, 72, 72);
+  /*To position the article on the left*/
 }
 
 img {
-    width: 55%;
-    height: 65%;
-    padding-top: 10%;
-    padding-left: 18%;
-    /*Padding is to center the image*/
+  margin-top: 5vh;
+  margin-left: 4vw;
+  width: 12vw;
+  height: 20vh;
+}
+
+.sk1 {
+  margin-left: 6vw;
+}
+
+li {
+  list-style: none;
+  margin: 2vh;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+  font-size: 1vw;
+  color: white;
+}
+
+.link2 {
+  color: white;
+  /*To change the link color*/
+}
+
+.half {
+  position: absolute;
+  left: 3%;
+  bottom: -55%;
+  width: 19vw;
+  height: 18vh;
+  border-radius: 0 0 12rem 12rem;
+  background-color: rgb(75, 72, 72);
+  /*code for half circle and to position it properly */
+}
+
+.fa-solid {
+  color: rgb(153, 107, 114);
+}
+
+.fa-brands:hover {
+  color: orange;
+  /*changes color when the cursor is on the link*/
+}
+
+.A1 {
+  color: white;
+  /*change the color of heading 2*/
 }
 
 footer {
-    text-align: center;
-}
-
-.half-pie {
-    position: absolute;
-    left: 2.5%;
-    bottom: 7%;
-    width: 227px;
-    height: 90px;
-    border-radius: 0 0 12rem 12rem;
-    background-color: gray;
-    /*The code used to make a half circle*/
+  position: absolute;
+  z-index: -1;
+  text-align: center;
+  color: white;
+  width: 97.8vw;
+  height: 25vh;
+  background-color: black;
 }
